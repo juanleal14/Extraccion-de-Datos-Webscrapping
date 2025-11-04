@@ -11,3 +11,5 @@ pandas>=2.1.0
 # --- Soporte opcional (solo si usas notebooks o depuración) ---
 lxml>=4.9.3       # mejora parsing HTML
 webdriver-manager>=4.0.1  # opcional (si no usas Selenium Manager)
+
+# Además, hacer `sudo apt install google-chrome-stable -y` para instalar Chrome en Linux
