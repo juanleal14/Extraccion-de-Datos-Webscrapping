@@ -1,0 +1,13 @@
+# --- Web scraping y parsing ---
+selenium>=4.13.0
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+tldextract>=5.1.0
+unidecode>=1.3.6
+
+# --- Datos y CSV ---
+pandas>=2.1.0
+
+# --- Soporte opcional (solo si usas notebooks o depuración) ---
+lxml>=4.9.3       # mejora parsing HTML
+webdriver-manager>=4.0.1  # opcional (si no usas Selenium Manager)
