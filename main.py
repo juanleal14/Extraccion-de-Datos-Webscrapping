@@ -8,9 +8,9 @@ Crawler para https://vcresearch.berkeley.edu/faculty-expertise
 - Guarda en SQLite y exporta CSV raw + CSV CRM
 
 Ejemplo:
-  python berkeley_faculty_vcresearch.py \
+  python3 main.py \
     --url https://vcresearch.berkeley.edu/faculty-expertise \
-    --max-clicks 60 --wait-after-click 1.8 \
+    --max-clicks 5--wait-after-click 1.8 \
     --card-css ".view-content .views-row" \
     --out-csv berkeley_faculty_vcr.csv \
     --db berkeley_faculty_vcr.db \
