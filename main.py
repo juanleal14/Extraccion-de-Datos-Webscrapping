@@ -12,8 +12,8 @@ Ejemplo:
     --url https://vcresearch.berkeley.edu/faculty-expertise \
     --max-clicks 5--wait-after-click 1.8 \
     --card-css ".view-content .views-row" \
-    --out-csv berkeley_faculty_vcr.csv \
-    --db berkeley_faculty_vcr.db \
+    --out-csv mails.csv \
+    --db mails.db \
     --headless 1
 """
 
