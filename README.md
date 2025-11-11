@@ -1,5 +1,4 @@
 # Extraccion-de-Datos-Webscrapping
-Código actual mejorado: main3.py
 ## Requisitos
 ### PASO 1. Creamos entorno y activamos
 ```
