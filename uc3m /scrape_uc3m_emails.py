@@ -171,7 +171,6 @@ if __name__ == "__main__":
         seeds = [
             "https://www.uc3m.es/ss/Satellite/DeptMatematicas/es/ListadoPersonalDept/1371321047774/Profesores_Titulares",
             "https://www.uc3m.es/departamento-ciencias-sociales/personal-tiempo-completo",
-            "https://www.uc3m.es/ss/Satellite/DeptIngElectrica/es/Profesorado_a_tiempo_completo",
             "https://www.uc3m.es/ss/Satellite/DeptCienIngMatIngQuim/es/ListadoPersonalDept/1371322829661/Profesores_permanentes",
             # añade aquí otras URLs semilla si las conoces
         ]
