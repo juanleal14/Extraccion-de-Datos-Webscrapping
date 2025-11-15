@@ -382,7 +382,7 @@ def main():
             all_contacts[email] = contact
     
     # Guardar CSV
-    out = "uc3m/profesores_uc3m.csv"
+    out = "profesores_uc3m_v2.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,

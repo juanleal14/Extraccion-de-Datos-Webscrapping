@@ -1,8 +1,8 @@
 """
-scrape_uc3m_emails.py
+scrape_uc3m_emails_v1.py
 Uso:
-    python scrape_uc3m_emails.py            # hace crawl desde la home (cuidado con robots.txt)
-    python scrape_uc3m_emails.py --seed seeds.txt  # usa lista de URLs semilla (una por línea)
+    python scrape_uc3m_emails_v1.py            # hace crawl desde la home (cuidado con robots.txt)
+    python scrape_uc3m_emails_v1.py --seed seeds.txt  # usa lista de URLs semilla (una por línea)
 
 Salida:
     uc3m/emails.csv  (csv con columnas: nombre_pagina, url, email)
@@ -29,8 +29,8 @@ HEADERS = {
 
 EMAIL_REGEX = re.compile(r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}")  # robust email regex
 
-OUT_DIR = "uc3m"
-OUT_FILE = os.path.join(OUT_DIR, "emails.csv")
+OUT_DIR = os.getcwd()
+OUT_FILE = "profesores_uc3m_v1.csv"
 
 # robots.txt comprobar
 def allowed_by_robots(url, user_agent=HEADERS["User-Agent"]):
